@@ -1,24 +1,24 @@
 name: terminal
 description: The default xterm for dahliaOS
-
 publish_to: 'none'
-version: 2.0.0+2
+version: 3.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.1.5 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   xterm: ^3.5.0
-  flutter_pty: ^0.3.1
-  flutter_lints: ^2.0.1
+  flutter_pty: ^0.4.0
+  bitsdojo_window: ^0.1.2
   zenit_ui: 
-    git: https://github.com/dahliaOS/zenit_ui.git
+    git: https://github.com/dahliaOS/zenit_ui
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
